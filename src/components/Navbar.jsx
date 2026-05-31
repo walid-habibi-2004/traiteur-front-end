@@ -18,8 +18,8 @@ export default function Navbar() {
   const closeMenu = () => setMenuOpen(false);
 
   const links = [
-    { label: "Accueil", href: "/Accueil" },
-    { label: "Services", href: "/Accueil/#services" },
+    { label: "Accueil", href: "/" },
+    { label: "Services", href: "#services" },
     {label: "Menu", href: "/menu"},
     { label: "Galerie", href: "/blog" },
   ];
@@ -40,7 +40,7 @@ export default function Navbar() {
       <nav className={`navbar${scrolled ? " navbar--scrolled" : ""}`} style={{
         background: scrolled ? undefined : "transparent",
       }}>
-        <a href="/Accueil" style={{ textDecoration: "none" }} onClick={closeMenu}>
+        <a href="/" style={{ textDecoration: "none" }} onClick={closeMenu}>
           <div style={{ display: "flex", flexDirection: "column", lineHeight: 1 }}>
             <span className="navbar__logo-title">Al Karama</span>
             <span className="navbar__logo-sub">Traiteur · Casablanca</span>
