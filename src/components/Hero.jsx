@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import heroImage from "/hero.jpg";
+// import heroImage from "/hero.jpg";
 
 export default function Hero() {
   const titleRef = useRef(null);
@@ -22,7 +22,7 @@ export default function Hero() {
         position: "absolute", inset: 0,
         background: `
           linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 100%),
-          url(${heroImage}) center/cover no-repeat
+          url("https://res.cloudinary.com/dbbideahh/image/upload/v1780264398/ejevqsqde19xx0vbqjjt.jpg") center/cover no-repeat
         `,
       }} />
 

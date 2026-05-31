@@ -18,7 +18,7 @@ export default function Footer() {
       </div>
 
       <p style={{
-        fontSize: "11px", color: "rgba(255,255,255,0.3)",
+        fontSize: "14px", color: "rgba(255,255,255,0.3)",
         fontFamily: "'Jost', sans-serif", fontWeight: 300,
         letterSpacing: "1px",
       }}>
@@ -26,9 +26,9 @@ export default function Footer() {
       </p>
 
       <div className="footer__links">
-        {["Accueil", "Services", "Contact"].map(l => (
-          <a key={l} href={`#${l.toLowerCase()}`} className="footer__link" style={{
-            fontSize: "10px", letterSpacing: "2px", textTransform: "uppercase",
+        {["Accueil", "menu", "blog"].map(l => (
+          <a key={l} href={`/${l.toLowerCase()}`} className="footer__link" style={{
+            fontSize: "13px", letterSpacing: "2px", textTransform: "uppercase",
             color: "rgba(255,255,255,0.3)", textDecoration: "none",
             fontFamily: "'Jost', sans-serif", transition: "color 0.3s",
           }}
