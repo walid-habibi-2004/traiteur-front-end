@@ -30,7 +30,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/hero" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/menu" element={<MenuPage/>} />
       </Routes>
