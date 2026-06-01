@@ -48,9 +48,9 @@ export default function Contact() {
           {/* Infos */}
           <div style={{ display: "flex", flexDirection: "column", gap: "32px" }}>
             {[
-              { icon: Phone, label: "Téléphone", value: "+212 6 XX XX XX XX" },
+              { icon: Phone, label: "Téléphone", value: "+212661-868038" },
               { icon: Mail, label: "Email", value: "contact@alkarama.ma" },
-              { icon: MapPin, label: "Adresse", value: "Casablanca, Maroc" },
+              { icon: MapPin, label: "Adresse", value: "Casablanca, Bouskoura, oulad saleh" },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} style={{ display: "flex", gap: "16px", alignItems: "flex-start" }}>
                 <div style={{
@@ -132,7 +132,7 @@ export default function Contact() {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Localisation Al Karama"
+            title="Localisation El Yassamine"
           />
 
           {/* Open in Maps button */}

@@ -86,7 +86,7 @@ export default function Features() {
           fontFamily: "'Jost', sans-serif",
           fontWeight: 300,
         }}>
-          Al Karama révolutionne la prise de commande traiteur en vous mettant à disposition
+          El Yassamine révolutionne la prise de commande traiteur en vous mettant à disposition
           une plateforme <strong style={{ color: "var(--white)", fontWeight: 500 }}>adaptée à toutes les attentes</strong> et des
           menus élaborés à partir de <strong style={{ color: "var(--white)", fontWeight: 500 }}>produits frais et de saison.</strong>
         </p>

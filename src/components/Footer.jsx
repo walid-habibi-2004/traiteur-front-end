@@ -9,7 +9,7 @@ export default function Footer() {
           fontFamily: "'Cormorant Garamond', serif",
           fontSize: "clamp(1.125rem, 3vw, 1.375rem)", fontWeight: 600, letterSpacing: "3px",
           color: "var(--gold)", textTransform: "uppercase",
-        }}>Al Karama</div>
+        }}>El Yassamine</div>
         <div style={{
           fontSize: "9px", letterSpacing: "4px",
           color: "rgba(255,255,255,0.3)", marginTop: "4px",
@@ -22,7 +22,7 @@ export default function Footer() {
         fontFamily: "'Jost', sans-serif", fontWeight: 300,
         letterSpacing: "1px",
       }}>
-        © 2025 Al Karama · Tous droits réservés
+        © 2025 El Yassamine · Tous droits réservés
       </p>
 
       <div className="footer__links">

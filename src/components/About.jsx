@@ -68,7 +68,7 @@ export default function About() {
             fontSize: "clamp(0.875rem, 2vw, 0.9375rem)", lineHeight: 1.9, color: "var(--warm-gray)",
             fontWeight: 300, marginBottom: "24px", fontFamily: "'Jost', sans-serif",
           }}>
-            Depuis plus de 12 ans, Al Karama est le traiteur de référence à Casablanca.
+            Depuis plus de 12 ans, El Yassamine est le traiteur de référence à Casablanca.
             Nous marions la richesse de la gastronomie marocaine à une élégance contemporaine
             pour créer des événements qui marquent les esprits.
           </p>

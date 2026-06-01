@@ -4,19 +4,19 @@ const temoignages = [
   {
     name: "Fatima Benali",
     role: "Mariée — Casablanca",
-    text: "Al Karama a rendu notre mariage absolument magique. La cuisine était sublime, la décoration à couper le souffle. Nos invités en parlent encore des mois après !",
+    text: "El Yassamine a rendu notre mariage absolument magique. La cuisine était sublime, la décoration à couper le souffle. Nos invités en parlent encore des mois après !",
     stars: 5,
   },
   {
     name: "Karim El Fassi",
     role: "Directeur RH — OCP Group",
-    text: "Pour notre séminaire annuel, Al Karama a assuré un buffet d'une qualité exceptionnelle. Professionnalisme, ponctualité, et saveurs inoubliables. Je recommande vivement.",
+    text: "Pour notre séminaire annuel, El Yassamine a assuré un buffet d'une qualité exceptionnelle. Professionnalisme, ponctualité, et saveurs inoubliables. Je recommande vivement.",
     stars: 5,
   },
   {
     name: "Nadia Chraibi",
     role: "Organisatrice d'événements",
-    text: "Je fais appel à Al Karama pour tous mes clients exigeants. Ils ne déçoivent jamais — la qualité, la présentation et le service sont toujours au rendez-vous.",
+    text: "Je fais appel à El Yassamine pour tous mes clients exigeants. Ils ne déçoivent jamais — la qualité, la présentation et le service sont toujours au rendez-vous.",
     stars: 5,
   },
 ];

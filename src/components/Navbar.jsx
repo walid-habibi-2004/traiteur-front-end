@@ -42,8 +42,8 @@ export default function Navbar() {
       }}>
         <a href="/" style={{ textDecoration: "none" }} onClick={closeMenu}>
           <div style={{ display: "flex", flexDirection: "column", lineHeight: 1 }}>
-            <span className="navbar__logo-title">Al Karama</span>
-            <span className="navbar__logo-sub">Traiteur · Casablanca</span>
+            <span className="navbar__logo-title">El Yassamine</span>
+            <span className="navbar__logo-sub" style={{fontSize: "12px"}}>Traiteur · Casablanca</span>
           </div>
         </a>
 
