@@ -19,7 +19,7 @@ export default function About() {
               width: "75%", height: "70%", objectFit: "cover",
             }}
           />
-          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80"
+          <img src="https://res.cloudinary.com/dbbideahh/image/upload/v1780336592/ssvmmrbxslmc5skpassi.jpg"
             alt="Plat marocain"
             style={{
               position: "absolute", bottom: 0, right: 0,

@@ -78,8 +78,8 @@ export default function Contact() {
 
           {/* Social */}
           <div style={{ display: "flex", gap: "12px", marginTop: "48px" }}>
-            {[Instagram, Facebook].map((Icon, i) => (
-              <a key={i} href="#" style={{
+            {[Instagram].map((Icon, i) => (
+              <a key={i} href="https://www.instagram.com/traiteur_el_yassamine/" target="_blank" style={{
                 width: "44px", height: "44px",
                 border: "1px solid rgba(201,168,76,0.3)",
                 display: "flex", alignItems: "center", justifyContent: "center",
